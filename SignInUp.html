@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DK/DN</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/DangKy_DangNhap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- -----------------FORM DANG KY---------------------------------------	 -->
+    <div class="container" id="container">
+      <div class="form-container sign-up-container">
+        <form action="#">
+          <h2>Sign In</h2>
+          <div class="social-container">
+            <a href="https://accounts.google.com" class="social">
+              <img src="./picture/icon_dk_dn/gg.png" />
+            </a>
+            <a href="https://www.facebook.com" class="social">
+              <img src="./picture/icon_dk_dn/fa.png" />
+            </a>
+          </div>
+          <span>-----OR-----</span>
+          <div id="DK">
+            <input type="text" placeholder="Name" />
+
+            <input id="email" type="email" placeholder="Email" />
+
+            <input id=" password" type="password" placeholder="Password" />
+          </div>
+          <button>Đăng Ký</button>
+        </form>
+      </div>
+
+      <!-- -------------------------FORM DANG NHAP------------------------------ -->
+      <div class="form-container sign-in-container">
+        <form action="#" onsubmit="login()">
+          <h2>Log In</h2>
+          <div class="social-container">
+            <a href="https://accounts.google.com" class="social">
+              <img src="./picture/icon_dk_dn/gg.png" />
+            </a>
+            <a href="https://www.facebook.com" class="social">
+              <img src="./picture/icon_dk_dn/fa.png" />
+            </a>
+          </div>
+          <span>-----OR-----</span>
+          <input id="email" type="email" placeholder="Email" />
+          <input id="password" type="password" placeholder="Password" />
+          <a href="./forgot.html">Quên mật khẩu?</a>
+          <button>Đăng nhập</button>
+        </form>
+      </div>
+
+      <!-- -------------------------------------------------- -->
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-left">
+            <h1>Canifa</h1>
+            <button class="ghost" id="signIn">Đăng Nhập</button>
+          </div>
+          <div class="overlay-panel overlay-right">
+            <h1>Canifa</h1>
+            <p>Chào mừng bạn đến với Canifa</p>
+            <button class="ghost" id="signUp">Đăng Ký</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script/DangKy_DangNhap.js"></script>
+  </body>
+</html>

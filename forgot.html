@@ -1,0 +1,62 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+		#DK{
+			width: 400px;
+			
+			border: 1px solid;
+			margin: 0 auto;
+			
+		}
+		label{
+			display: block;
+			margin-top: 20px
+		}
+		.click:hover{
+			background-color: rgb(232, 13, 192);
+			
+		}
+		
+button{
+	cursor: pointer;
+	height: 35px; 
+	background-color: rgb(240, 122, 238);
+	border: none; 
+	margin-top: 30px;
+}
+	</style>
+</head>
+
+
+<body>
+	<form onsubmit="login()">
+		<div id="DK">
+			<h4 align="center" style="background-color: rgb(236, 148, 218); padding: 10px; margin: 0">Quên Mật Khẩu</h4>
+			<div style="margin-left: 30px">
+				
+				<label for="text">Email</label>
+				<input type="text" name="email"  id="email" placeholder="email">
+				<center><button>Đặt lại mật khẩu</button></center>
+		</div>
+	</form>
+	
+
+    <script>
+function login(e){
+	event.preventDefault();
+	var email = document.getElementById('email').value;
+	if(email == null){
+	  alert("vui long nhap email va mat khau")
+	}
+	else{
+	  alert("Tiep tuc")
+	  window.location.href="SignInUp.html"
+	}
+  }
+    </script>
+</body>
+</html>

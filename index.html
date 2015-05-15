@@ -23,12 +23,24 @@
       href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="icon"
+      href="https://www.google.com/favicon.ico"
+      type="image/x-icon"
+    />
+
     <!-- end link font-awesome -->
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/thongbao.css" />
     <title>CANIFA</title>
   </head>
   <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--map-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <!-- Top Banner -->
     <div class="top-banner">
       <div class="container text-center">
@@ -41,12 +53,12 @@
     <!-- Header -->
     <header class="sticky-top bg-white">
       <div class="container">
+        <!---Nav 1-->
         <nav class="header_navbar">
           <!--Navbar trái-->
           <ul class="header_navbar-list">
             <li
               class="header_navbar-items header_navbar-items-has-Qr header_navbar-items-sep"
-              style="padding-left: 20px"
             >
               Tải ứng dụng CANIFA
 
@@ -73,7 +85,7 @@
                 </div>
               </div>
             </li>
-            <li class="header_navbar-items">
+            <li class="header_navbar-items" style="padding-left: 10px">
               Kết nối
 
               <a
@@ -185,14 +197,14 @@
             </li>
             <!---------------chua dang ki--------------->
             <li class="header_navbar-items header_navbar-items-sep">
-              <a href="#"> Đăng kí </a>
+              <a href="./SignInUp.html"> Đăng kí </a>
             </li>
-            <li class="header_navbar-items" style="padding-right: 10px">
-              <a href="#"> Đăng nhập</a>
+            <li class="header_navbar-items" style="padding-left: 10px">
+              <a href="./SignInUp.html"> Đăng nhập</a>
             </li>
           </ul>
         </nav>
-
+        <!---Nav 2-->
         <nav class="navbar navbar-expand-lg navbar-light">
           <a class="navbar-brand" href="#">
             <img
@@ -447,73 +459,70 @@
         </nav>
       </div>
     </header>
-    <!-- Slideshow -->
-    <div id="carouselExampleIndicators" class="carousel slide">
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
+    <!---HOT-->
+    <div class="noti_choose">
+      <div class="notificaton_dow">
+        <div class="toggle-btn">
+          <i class="bx bx-plus"></i>
+        </div>
+        <span style="--i: 5">
+          <a href="#" id="backtop">
+            <i class="bx bx-up-arrow-circle"></i>
+          </a>
+        </span>
+        <span style="--i: 4">
+          <a href="#" id="switch-mode">
+            <i class="bx bx-sun"></i>
+          </a>
+        </span>
+        <span style="--i: 3">
+          <a href="#" data-bs-toggle="modal" data-bs-target="#myModal">
+            <i class="bx bxs-map"></i>
+          </a>
+        </span>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="https://2885371169.e.cdneverest.net/media/Simiconnector/BannerSlider/a/c/acn_topbanner_desktop-070525.webp"
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="https://2885371169.e.cdneverest.net/media/Simiconnector/BannerSlider/s/p/spmoi_topbanner_desktop-220425.webp"
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="https://2885371169.e.cdneverest.net/media/Simiconnector/BannerSlider/t/-/t-shirt_topbanner_desktop-ud--220425.webp"
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
-
+    <!-- MAP -->
+    <div
+      class="modal fade"
+      id="myModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+      style="z-index: 9999"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5
+              class="modal-title"
+              id="exampleModalLabel"
+              style="color: black; font-weight: bold"
+            >
+              VỊ TRÍ CỬA HÀNG
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <iframe
+              width="100%"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7838.134575200932!2d106.62497562570954!3d10.806158505878432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752be27d8b4f4d%3A0x92dcba2950430867!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBUaMawxqFuZyBUUC4gSOG7kyBDaMOtIE1pbmggKEhVSVQp!5e0!3m2!1svi!2s!4v1714985724721!5m2!1svi!2s"
+              width="600"
+              height="400"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Shipping Info -->
     <div class="shipping-info">
       <div class="container">
@@ -1413,4 +1422,5 @@
     crossorigin="anonymous"
   ></script>
   <script src="./script/cardsanpham.js"></script>
+  <script src="./script/extension.js"></script>
 </html>

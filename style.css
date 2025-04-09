@@ -1,13 +1,13 @@
 body {
   font-family: "Montserrat", Arial, sans-serif;
-  color: var(--dark-color);
+  color: #212529;
   overflow-x: hidden;
   font-size: 14px;
 }
 
 a {
   text-decoration: none;
-  color: var(--dark-color);
+  color: #212529;
   transition: color 0.3s;
 }
 

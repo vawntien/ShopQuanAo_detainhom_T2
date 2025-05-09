@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chi tiết sản phẩm</title>
+    <link rel="stylesheet" href="../../../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="product-container">
+      <!-- Phần hiển thị ảnh bên trái -->
+
+      <div class="product-gallery">
+        <!-- Ảnh lớn chính ở giữa -->
+
+        <button class="nav-btn prev-btn">
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+        <div class="main-image">
+          <img
+            id="mainImage"
+            src="../../../picture/Nam/Quan/Quan2/Den/Den1.webp"
+            alt="Áo khoác bomber nam da lớn"
+          />
+        </div>
+        <button class="nav-btn next-btn">
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+        <!-- Cột dọc thumbnails bên trái -->
+        <div class="thumbnails-column">
+          <div class="thumbnail active" data-index="0" data-color="black">
+            <img
+              src="../../../picture/Nam/Quan/Quan2/Den/Den1.webp"
+              alt="Áo khoác thumbnail 1"
+            />
+          </div>
+          <div class="thumbnail" data-index="1" data-color="black">
+            <img
+              src="../../../picture/Nam/Quan/Quan2/Den/Den2.webp"
+              alt="Áo khoác thumbnail 2"
+            />
+          </div>
+          <div class="thumbnail" data-index="0" data-color="white">
+            <img
+              src="../../../picture/Nam/Quan/Quan2/Trang/Trang1.webp"
+              alt="Áo khoác thumbnail 3"
+            />
+          </div>
+          <div class="thumbnail" data-index="1" data-color="white">
+            <img
+              src="../../../picture/Nam/Quan/Quan2/Trang/Trang2.webp"
+              alt="Áo khoác thumbnail 4"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Phần thông tin sản phẩm bên phải -->
+      <div class="product-info">
+        <h1>Quần soóc nam</h1>
+        <p class="product-code">Mã sp: 8BS25S002-FB567</p>
+        <div class="product-price">399.000 ₫</div>
+        <div class="discount-banner">
+          <img
+            class="img-discount"
+            src="../../../picture/Banner/discount.webp"
+            alt="Khuyến mãi"
+          />
+        </div>
+
+        <div class="color-section">
+          <p>Màu sắc: <span id="selectedColor">Đen</span></p>
+          <div class="color-options">
+            <div class="color-choose cblack" data-color="black"></div>
+            <div class="color-choose cwhite" data-color="white"></div>
+          </div>
+        </div>
+
+        <div class="size-section">
+          <div class="size-header">
+            <p>Kích cỡ</p>
+            <p id="sizeGuideBtn" class="size-guide">
+              Gợi ý tìm size
+              <i class="fa-duotone fa-solid fa-arrow-up-right-from-square"></i>
+            </p>
+          </div>
+          <div class="size-options">
+            <div class="size-option">S</div>
+            <div class="size-option active">M</div>
+            <div class="size-option">L</div>
+            <div class="size-option">XL</div>
+          </div>
+        </div>
+
+        <button class="add-to-cart">Thêm vào giỏ hàng</button>
+
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-header">Mô tả</div>
+            <div class="accordion-content">
+              <p>
+                Áo khoác bomber nam da lộn được thiết kế 2 lớp, chất liệu da lộn
+                dày vừa, mềm mại và thoải mái khi mặc.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header">Chất liệu</div>
+            <div class="accordion-content">
+              <p>Chất liệu: 100% da lộn cao cấp</p>
+              <p>Lớp lót: 100% polyester</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header">Hướng dẫn sử dụng</div>
+            <div class="accordion-content">
+              <p>- Giặt tay với nước lạnh</p>
+              <p>- Không sử dụng chất tẩy</p>
+              <p>- Không sấy khô</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal cho bảng size -->
+    <div id="sizeModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Bảng hướng dẫn chọn size</h2>
+        <img
+          src="../../../picture/Banner/size.jpg"
+          alt="Bảng size"
+          class="size-chart"
+        />
+      </div>
+    </div>
+
+    <script src="../../../script/scriptctsp.js"></script>
+  </body>
+</html>

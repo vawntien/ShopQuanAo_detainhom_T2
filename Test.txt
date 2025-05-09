@@ -1,0 +1,1215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap link css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- end link bootstrap -->
+    <!-- font-awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- end link font-awesome -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>CANIFA</title>
+  </head>
+  <body>
+    <!-- Top Banner -->
+    <div class="top-banner">
+      <div class="container text-center">
+        <p class="mb-0">
+          ĐỔI HÀNG MIỄN PHÍ - TẠI TẤT CẢ CỬA HÀNG TRONG 30 NGÀY
+        </p>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="sticky-top bg-white">
+      <div class="container">
+        <nav class="header_navbar">
+          <!--Navbar trái-->
+          <ul class="header_navbar-list">
+            <li
+              class="header_navbar-items header_navbar-items-has-Qr header_navbar-items-sep"
+              style="padding-left: 20px"
+            >
+              Tải ứng dụng CANIFA
+
+              <!--QR code-->
+              <div class="header_qr">
+                <img
+                  src="./picture/icon_dk_dn/Q.png"
+                  alt="Mã Qr"
+                  class="header_qr-img"
+                />
+                <div class="header_qr-apps">
+                  <img
+                    src="./picture/icon_dk_dn/google.png"
+                    alt="Google Play"
+                    class="header_apps-img"
+                    style="margin-left: 11px"
+                  />
+                  <img
+                    src="./picture/icon_dk_dn/iphone.png"
+                    alt="App Store"
+                    class="header_apps-img"
+                    style="margin-right: 11px"
+                  />
+                </div>
+              </div>
+            </li>
+            <li class="header_navbar-items">
+              Kết nối
+
+              <a
+                href="https://www.facebook.com/DhCongThuongHCM/"
+                class="header_navbar-icon-link fac"
+              >
+                <i class="header_navbar-icon fab fa-facebook"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/dh_congthuong/"
+                class="header_navbar-icon-link inta"
+              >
+                <i class="header_navbar-icon fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+
+          <!--navbar phải-->
+          <ul class="header_navbar-list">
+            <li class="header_navbar-items header_navbar-items-has-notify">
+              <a href="" class="header_navbar-items-link">
+                <i class="header_navbar-icon far fa-bell"></i>Thông báo
+              </a>
+              <!-- Nội dung thông báo -->
+
+              <div class="header_notify">
+                <header class="header_notify-header">
+                  <h4>Thông báo mới nhận</h4>
+                </header>
+                <ul
+                  class="header_notify-list header_notify-items-view"
+                  type="none"
+                >
+                  <!--thông báo 1-->
+                  <li class="header_notify-items">
+                    <a href="./thongbao/TT1.html" class="header_notify-link">
+                      <img
+                        src="./picture/Nam/Aophong/Aophong1/Xanh/Xanh1.webp"
+                        alt="thông báo 1"
+                        class="header_notify-img"
+                      />
+                      <div class="header_notify-data">
+                        <p class="header_notify-name">Sale lớn cho áo CANIFA</p>
+
+                        <p class="header_notify-describe">
+                          Với chất liệu cotton co giãn,
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+
+                  <!--thông báo  2-->
+                  <li class="header_notify-items">
+                    <a href="./thongbao/TT2.html" class="header_notify-link">
+                      <img
+                        src="./picture/Nu/Quan/Quan1/Den/Den1.webp"
+                        alt="thông báo 2"
+                        class="header_notify-img"
+                      />
+                      <div class="header_notify-data">
+                        <span class="header_notify-name"
+                          >Quần sort ngày hè</span
+                        >
+                        <br />
+                        <span class="header_notify-describe"
+                          >Chất liệu vải lanh luôn là lựa chọn tuyệt vời
+                        </span>
+                      </div>
+                    </a>
+                  </li>
+
+                  <!--thông báo  3-->
+                  <li class="header_notify-items">
+                    <a href="./thongbao/TT3.html" class="header_notify-link">
+                      <img
+                        src="./picture/Nu/Vay/Vay1/Den/Den1.webp"
+                        alt="thông báo 3"
+                        class="header_notify-img"
+                      />
+                      <div class="header_notify-data">
+                        <span class="header_notify-name"
+                          >Váy ngày hè cho mẹ</span
+                        >
+                        <br />
+                        <span class="header_notify-describe"
+                          >Sale lớn cho kỳ hè</span
+                        >
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+
+                <div class="footer_notify-footer">
+                  <a
+                    href="./thongbao/TT1.html"
+                    class="footer_notify-footerinfor"
+                    >Xem kết quả</a
+                  >
+                </div>
+              </div>
+              <!------------------------------>
+            </li>
+
+            <li class="header_navbar-items">
+              <a href="" class="header_navbar-items-link">
+                <i class="header_navbar-icon far fa-question-circle"></i>Trợ
+                giúp
+              </a>
+            </li>
+            <!---------------chua dang ki--------------->
+            <li class="header_navbar-items header_navbar-items-sep">
+              <a href="#"> Đăng kí </a>
+            </li>
+            <li class="header_navbar-items" style="padding-right: 10px">
+              <a href="#"> Đăng nhập</a>
+            </li>
+          </ul>
+        </nav>
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#">
+            <img
+              src="https://canifa.com/assets/images/logo.svg"
+              alt="CANIFA Logo"
+              height="40"
+              class="logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto main-menu">
+              <li class="nav-item">
+                <a class="nav-link" href="#">NỮ</a>
+                <div class="mega-menu">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-2">
+                        <h5 class="menu-title">Hàng mới</h5>
+                        <ul class="menu-list">
+                          <li><a href="#">Hàng mới về</a></li>
+                          <li><a href="#">Áo phông gia đình</a></li>
+                          <li><a href="#">Smart casual</a></li>
+                          <li><a href="#">Disney</a></li>
+                        </ul>
+                        <h5 class="menu-title mt-4">Nổi bật</h5>
+                        <ul class="menu-list">
+                          <li><a href="#">Giá tốt</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-md-2">
+                        <h5 class="menu-title">Danh mục sản phẩm</h5>
+                        <ul class="menu-list">
+                          <li>
+                            <a href="#"
+                              ><i class="fas fa-star text-warning me-2"></i>Áo
+                              phông/ Áo thun</a
+                            >
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="fas fa-star text-warning me-2"></i>Áo
+                              polo</a
+                            >
+                          </li>
+                          <li><a href="#">Áo sơ mi & Áo kiểu</a></li>
+                          <li><a href="#">Áo chống nắng</a></li>
+                          <li>
+                            <a href="#">Canifa Active/ Quần áo thể thao</a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="fas fa-star text-warning me-2"></i>Quần
+                              soóc/ Quần short</a
+                            >
+                          </li>
+                          <li><a href="#">Quần dài & Quần Jean</a></li>
+                          <li><a href="#">Quần áo nỉ</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-md-2">
+                        <ul class="menu-list mt-5">
+                          <li><a href="#">Quần áo nỉ</a></li>
+                          <li>
+                            <a href="#"
+                              ><i class="fas fa-star text-warning me-2"></i>Quần
+                              áo mặc nhà/ Đồ ngủ</a
+                            >
+                          </li>
+                          <li><a href="#">Áo khoác & Giữ nhiệt</a></li>
+                          <li><a href="#">Áo len</a></li>
+                          <li>
+                            <a href="#"
+                              ><i class="fas fa-star text-warning me-2"></i
+                              >Váy</a
+                            >
+                          </li>
+                          <li><a href="#">Bộ quần áo</a></li>
+                          <li><a href="#">Đồ lót</a></li>
+                          <li><a href="#">Tất/Vớ</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-md-2">
+                        <h5 class="menu-title">Phụ kiện</h5>
+                        <ul class="menu-list">
+                          <li><a href="#">Chăn</a></li>
+                          <li><a href="#">Khăn mặt</a></li>
+                          <li><a href="#">Khăn tắm</a></li>
+                          <li><a href="#">Khăn quàng cổ</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-md-2">
+                        <div class="menu-image">
+                          <img
+                            src="https://media.canifa.com/mega_menu/item/Nu-1-menu-05Mar.webp"
+                            alt="Thời trang nữ"
+                            class="img-fluid"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-2">
+                        <div class="menu-image">
+                          <img
+                            src="https://media.canifa.com/mega_menu/item/Nu-1-menu-05Mar.webp"
+                            alt="Thời trang nữ"
+                            class="img-fluid"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">NAM</a>
+                <div class="mega-menu">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-2">
+                        <h5 class="menu-title">Hàng mới</h5>
+                        <ul class="menu-list">
+                          <li><a href="#">Hàng mới về</a></li>
+                          <li><a href="#">Áo phông gia đình</a></li>
+                          <li><a href="#">Smart casual</a></li>
+                          <li><a href="#">Disney</a></li>
+                        </ul>
+                        <h5 class="menu-title mt-4">Nổi bật</h5>
+                        <ul class="menu-list">
+                          <li><a href="#">Giá tốt</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-md-2">
+                        <h5 class="menu-title">Danh mục sản phẩm</h5>
+                        <ul class="menu-list">
+                          <li>
+                            <a href="#"
+                              ><i class="fas fa-star text-warning me-2"></i>Áo
+                              phông/ Áo thun</a
+                            >
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="fas fa-star text-warning me-2"></i>Áo
+                              polo</a
+                            >
+                          </li>
+                          <li><a href="#">Áo sơ mi & Áo kiểu</a></li>
+                          <li><a href="#">Áo chống nắng</a></li>
+                          <li>
+                            <a href="#">Canifa Active/ Quần áo thể thao</a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="fas fa-star text-warning me-2"></i>Quần
+                              soóc/ Quần short</a
+                            >
+                          </li>
+                          <li><a href="#">Quần dài & Quần Jean</a></li>
+                          <li><a href="#">Quần áo nỉ</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-md-2">
+                        <ul class="menu-list mt-5">
+                          <li><a href="#">Quần áo nỉ</a></li>
+                          <li>
+                            <a href="#"
+                              ><i class="fas fa-star text-warning me-2"></i>Quần
+                              áo mặc nhà/ Đồ ngủ</a
+                            >
+                          </li>
+                          <li><a href="#">Áo khoác & Giữ nhiệt</a></li>
+                          <li><a href="#">Áo len</a></li>
+                          <li>
+                            <a href="#"
+                              ><i class="fas fa-star text-warning me-2"></i
+                              >Váy</a
+                            >
+                          </li>
+                          <li><a href="#">Bộ quần áo</a></li>
+                          <li><a href="#">Đồ lót</a></li>
+                          <li><a href="#">Tất/Vớ</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-md-2">
+                        <h5 class="menu-title">Phụ kiện</h5>
+                        <ul class="menu-list">
+                          <li><a href="#">Chăn</a></li>
+                          <li><a href="#">Khăn mặt</a></li>
+                          <li><a href="#">Khăn tắm</a></li>
+                          <li><a href="#">Khăn quàng cổ</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-md-2">
+                        <div class="menu-image">
+                          <img
+                            src="https://media.canifa.com/mega_menu/item/Nam-1-menu-05Mar.webp"
+                            alt="Thời trang nam"
+                            class="img-fluid"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-2">
+                        <div class="menu-image">
+                          <img
+                            src="https://media.canifa.com/mega_menu/item/Nam-1-menu-05Mar.webp"
+                            alt="Thời trang nam"
+                            class="img-fluid"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">SẢN PHẨM MỚI</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">CANIFA S</a>
+              </li>
+            </ul>
+            <div class="d-flex align-items-center">
+              <div class="search-box me-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Tìm kiếm"
+                />
+                <i class="fas fa-search"></i>
+              </div>
+              <div class="header-icons">
+                <a href="#" class="icon-link me-3" title="Cửa hàng">
+                  <i class="fas fa-heart"></i>
+                  <span>Yêu thích</span>
+                </a>
+                <a href="#" class="icon-link" title="Giỏ hàng">
+                  <i class="fas fa-shopping-bag"></i>
+                  <span>Giỏ hàng</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Slideshow -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://2885371169.e.cdneverest.net/media/Simiconnector/BannerSlider/a/c/acn_topbanner_desktop-070525.webp"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://2885371169.e.cdneverest.net/media/Simiconnector/BannerSlider/s/p/spmoi_topbanner_desktop-220425.webp"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://2885371169.e.cdneverest.net/media/Simiconnector/BannerSlider/t/-/t-shirt_topbanner_desktop-ud--220425.webp"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Shipping Info -->
+    <div class="shipping-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-money-bill-wave"></i>
+              </div>
+              <div class="info-text">
+                <h5>Thanh toán khi nhận hàng (COD)</h5>
+                <p>Giao hàng toàn quốc.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-truck"></i>
+              </div>
+              <div class="info-text">
+                <h5>Miễn phí giao hàng</h5>
+                <p>Với đơn hàng trên 599.000đ.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-exchange-alt"></i>
+              </div>
+              <div class="info-text">
+                <h5>Đổi hàng miễn phí</h5>
+                <p>Trong 30 ngày kể từ ngày mua.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <!----NAM-->
+      <img src="./picture/Banner/AoChongNang.webp" />
+      <h2 class="TitleAnhGioiThieu">Nam</h2>
+      <h2 class="TitleAnhGioiThieu">Áo Khoác</h2>
+      <ul class="DanhMucSanPham">
+        <li>
+          <div class="SanPham">
+            <div class="SanPhamNoiDung">
+              <div class="SanPhamTop">
+                <img
+                  class="anhSanPham"
+                  src="picture/Nam/Aokhoac/Aokhoac1/Den/Den1.webp"
+                  alt="Ảnh sản phẩm"
+                />
+                <a href="#" class="ThemNhanhVaoGio">Thêm nhanh vào giỏ</a>
+              </div>
+              <div class="LuaChonThuocTinhMau">
+                <span
+                  class="LuaChonMau selected"
+                  style="background-color: black"
+                  data-img="picture/Nam/Aokhoac/Aokhoac1/Den/Den1.webp"
+                ></span>
+                <span
+                  class="LuaChonMau"
+                  style="background-color: white"
+                  data-img="picture/Nam/Aokhoac/Aokhoac1/Trang/Trang1.webp"
+                ></span>
+              </div>
+              <div class="SanPhamThongTin">
+                <a
+                  href="./chitietsp/Nam/Aokhoac/aokhoac1.html"
+                  class="TenCardSanPham"
+                  >Áo khoác bomber nam da lộn</a
+                >
+                <div class="SanPhamGia">1.499.000 ₫</div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="SanPham">
+            <div class="SanPhamNoiDung">
+              <div class="SanPhamTop">
+                <img
+                  class="anhSanPham"
+                  src="picture/Nam/Aokhoac/Aokhoac2/Den/Den2.webp"
+                  alt="Ảnh sản phẩm"
+                />
+                <a href="#" class="ThemNhanhVaoGio">Thêm nhanh vào giỏ</a>
+              </div>
+              <div class="LuaChonThuocTinhMau">
+                <span
+                  class="LuaChonMau selected"
+                  style="background-color: black"
+                  data-img="picture/Nam/Aokhoac/Aokhoac2/Den/Den2.webp"
+                ></span>
+                <span
+                  class="LuaChonMau"
+                  style="background-color: rgb(249, 239, 203)"
+                  data-img="picture/Nam/Aokhoac/Aokhoac2/Trang/Trang1.webp"
+                ></span>
+              </div>
+              <div class="SanPhamThongTin">
+                <a
+                  href="./chitietsp/Nam/Aokhoac/aokhoac2.html"
+                  class="TenCardSanPham"
+                  >Áo khoác chống nắng nam</a
+                >
+                <div class="SanPhamGia">259.000 ₫</div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="SanPham">
+            <div class="SanPhamNoiDung">
+              <div class="SanPhamTop">
+                <img
+                  class="anhSanPham"
+                  src="picture/Nam/Aokhoac/Aokhoac3/Den/Den1.webp"
+                  alt="Ảnh sản phẩm"
+                />
+                <a href="#" class="ThemNhanhVaoGio">Thêm nhanh vào giỏ</a>
+              </div>
+              <div class="LuaChonThuocTinhMau">
+                <span
+                  class="LuaChonMau selected"
+                  style="background-color: black"
+                  data-img="picture/Nam/Aokhoac/Aokhoac3/Den/Den1.webp"
+                ></span>
+                <span
+                  class="LuaChonMau"
+                  style="background-color: white"
+                  data-img="picture/Nam/Aokhoac/Aokhoac3/Trang/Trang1.webp"
+                ></span>
+              </div>
+              <div class="SanPhamThongTin">
+                <a
+                  href="./chitietsp/Nam/Aokhoac/aokhoac3.html"
+                  class="TenCardSanPham"
+                  >Áo khoác gilet chần bông nam chống thấm, siêu ấm</a
+                >
+                <div class="SanPhamGia">999.000 ₫</div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="XemTatCaAlign">
+        <a href="#" class="XemTatCa">Xem tất cả</a>
+      </div>
+      <!---------->
+      <h2 class="TitleAnhGioiThieu">Áo Phông</h2>
+      <ul class="DanhMucSanPham">
+        <li>
+          <div class="SanPham">
+            <div class="SanPhamNoiDung">
+              <div class="SanPhamTop">
+                <img
+                  class="anhSanPham"
+                  src="picture/Nam/Aophong/Aophong1/Xanh/Xanh1.webp"
+                  alt="Ảnh sản phẩm"
+                />
+                <a href="#" class="ThemNhanhVaoGio">Thêm nhanh vào giỏ</a>
+              </div>
+              <div class="LuaChonThuocTinhMau">
+                <span
+                  class="LuaChonMau selected"
+                  style="background-color: rgb(2, 45, 152)"
+                  data-img="picture/Nam/Aophong/Aophong1/Xanh/Xanh1.webp"
+                ></span>
+                <span
+                  class="LuaChonMau"
+                  style="background-color: white"
+                  data-img="picture/Nam/Aophong/Aophong1/Trang/Trang1.webp"
+                ></span>
+              </div>
+              <div class="SanPhamThongTin">
+                <a
+                  href="./chitietsp/Nam/AoPhong/aophong1.html"
+                  class="TenCardSanPham"
+                  >Áo phông nam vải dệt Waffle dáng oversize</a
+                >
+                <div class="SanPhamGia">449.000 ₫</div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="SanPham">
+            <div class="SanPhamNoiDung">
+              <div class="SanPhamTop">
+                <img
+                  class="anhSanPham"
+                  src="picture/Nam/Aophong/Aophong2/Den/Den1.webp"
+                  alt="Ảnh sản phẩm"
+                />
+                <a href="#" class="ThemNhanhVaoGio">Thêm nhanh vào giỏ</a>
+              </div>
+              <div class="LuaChonThuocTinhMau">
+                <span
+                  class="LuaChonMau selected"
+                  style="background-color: black"
+                  data-img="picture/Nam/Aophong/Aophong2/Den/Den1.webp"
+                ></span>
+                <span
+                  class="LuaChonMau"
+                  style="background-color: white"
+                  data-img="picture/Nam/Aophong/Aophong2/Trang/Trang1.webp"
+                ></span>
+              </div>
+              <div class="SanPhamThongTin">
+                <a
+                  href="./chitietsp/Nam/AoPhong/aophong2.html"
+                  class="TenCardSanPham"
+                  >Áo phông unisex người lớn
+                </a>
+                <div class="SanPhamGia">300.000 ₫</div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="SanPham">
+            <div class="SanPhamNoiDung">
+              <div class="SanPhamTop">
+                <img
+                  class="anhSanPham"
+                  src="picture/Nam/Aophong/Aophong3/Den/Den1.webp"
+                  alt="Ảnh sản phẩm"
+                />
+                <a href="#" class="ThemNhanhVaoGio">Thêm nhanh vào giỏ</a>
+              </div>
+              <div class="LuaChonThuocTinhMau">
+                <span
+                  class="LuaChonMau selected"
+                  style="background-color: black"
+                  data-img="picture/Nam/Aophong/Aophong3/Den/Den1.webp"
+                ></span>
+              </div>
+              <div class="SanPhamThongTin">
+                <a
+                  href="./chitietsp/Nam/AoPhong/aophong3.html"
+                  class="TenCardSanPham"
+                  >Áo phông nam in Marvel</a
+                >
+                <div class="SanPhamGia">399.000 ₫</div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="XemTatCaAlign">
+        <a href="#" class="XemTatCa">Xem tất cả</a>
+      </div>
+
+      <!--------->
+      <h2 class="TitleAnhGioiThieu">Quần</h2>
+      <ul class="DanhMucSanPham">
+        <li>
+          <div class="SanPham">
+            <div class="SanPhamNoiDung">
+              <div class="SanPhamTop">
+                <img
+                  class="anhSanPham"
+                  src="picture/Nam/Quan/Quan1/Den/Den1.webp"
+                  alt="Ảnh sản phẩm"
+                />
+                <a href="#" class="ThemNhanhVaoGio">Thêm nhanh vào giỏ</a>
+              </div>
+              <div class="LuaChonThuocTinhMau">
+                <span
+                  class="LuaChonMau selected"
+                  style="background-color: black"
+                  data-img="picture/Nam/Quan/Quan1/Den/Den1.webp"
+                ></span>
+                <span
+                  class="LuaChonMau"
+                  style="background-color: white"
+                  data-img="picture/Nam/Quan/Quan1/Trang/Trang1.webp"
+                ></span>
+              </div>
+              <div class="SanPhamThongTin">
+                <a href="./chitietsp/Nam/Quan/quan1.html" class="TenCardSanPham"
+                  >Quần soóc nam</a
+                >
+                <div class="SanPhamGia">249.000 ₫</div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="SanPham">
+            <div class="SanPhamNoiDung">
+              <div class="SanPhamTop">
+                <img
+                  class="anhSanPham"
+                  src="picture/Nam/Quan/Quan2/Den/Den1.webp"
+                  alt="Ảnh sản phẩm"
+                />
+                <a href="#" class="ThemNhanhVaoGio">Thêm nhanh vào giỏ</a>
+              </div>
+              <div class="LuaChonThuocTinhMau">
+                <span
+                  class="LuaChonMau selected"
+                  style="background-color: black"
+                  data-img="picture/Nam/Quan/Quan2/Den/Den1.webp"
+                ></span>
+                <span
+                  class="LuaChonMau"
+                  style="background-color: white"
+                  data-img="picture/Nam/Quan/Quan2/Trang/Trang1.webp"
+                ></span>
+              </div>
+              <div class="SanPhamThongTin">
+                <a href="./chitietsp/Nam/Quan/quan2.html" class="TenCardSanPham"
+                  >Quần soóc nam</a
+                >
+                <div class="SanPhamGia">399.000 ₫</div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="SanPham">
+            <div class="SanPhamNoiDung">
+              <div class="SanPhamTop">
+                <img
+                  class="anhSanPham"
+                  src="picture/Nam/Quan/Quan3/Den/Den1.webp"
+                  alt="Ảnh sản phẩm"
+                />
+                <a href="#" class="ThemNhanhVaoGio">Thêm nhanh vào giỏ</a>
+              </div>
+              <div class="LuaChonThuocTinhMau">
+                <span
+                  class="LuaChonMau selected"
+                  style="background-color: black"
+                  data-img="picture/Nam/Quan/Quan3/Den/Den1.webp"
+                ></span>
+              </div>
+              <div class="SanPhamThongTin">
+                <a href="./chitietsp/Nam/Quan/quan3.html" class="TenCardSanPham"
+                  >Quần soóc jeans nam cạp thường dáng suông</a
+                >
+                <div class="SanPhamGia">419.300 ₫</div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <div class="XemTatCaAlign">
+        <a href="#" class="XemTatCa">Xem tất cả</a>
+      </div>
+
+      <!------>
+      <img src="./picture/Banner/AoPhong.webp" />
+      <h2 class="TitleAnhGioiThieu">Áo Phông</h2>
+      <ul class="DanhMucSanPham">
+        <li>
+          <div class="SanPham">
+            <div class="SanPhamNoiDung">
+              <div class="SanPhamTop">
+                <img
+                  class="anhSanPham"
+                  src="picture/Nu/Aophong_Aothun/Aophong1/Den/Den1.webp"
+                  alt="Ảnh sản phẩm"
+                />
+                <a href="#" class="ThemNhanhVaoGio">Thêm nhanh vào giỏ</a>
+              </div>
+              <div class="LuaChonThuocTinhMau">
+                <span
+                  class="LuaChonMau selected"
+                  style="background-color: black"
+                  data-img="picture/Nu/Aophong_Aothun/Aophong1/Den/Den1.webp"
+                ></span>
+                <span
+                  class="LuaChonMau"
+                  style="background-color: white"
+                  data-img="picture/Nu/Aophong_Aothun/Aophong1/Trang/Trang1.webp"
+                ></span>
+              </div>
+              <div class="SanPhamThongTin">
+                <a
+                  href="./chitietsp/Nu/AoPhong/aophong1.html"
+                  class="TenCardSanPham"
+                  >Áo phông nữ dài tay có hình in</a
+                >
+                <div class="SanPhamGia">399.000 ₫</div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="SanPham">
+            <div class="SanPhamNoiDung">
+              <div class="SanPhamTop">
+                <img
+                  class="anhSanPham"
+                  src="picture/Nu/Aophong_Aothun/Aophong2/Den/Den1.webp"
+                  alt="Ảnh sản phẩm"
+                />
+                <a href="#" class="ThemNhanhVaoGio">Thêm nhanh vào giỏ</a>
+              </div>
+              <div class="LuaChonThuocTinhMau">
+                <span
+                  class="LuaChonMau selected"
+                  style="background-color: black"
+                  data-img="picture/Nu/Aophong_Aothun/Aophong2/Den/Den2.webp"
+                ></span>
+                <span
+                  class="LuaChonMau"
+                  style="background-color: white"
+                  data-img="picture/Nu/Aophong_Aothun/Aophong2/Trang/Trang1.webp"
+                ></span>
+              </div>
+              <div class="SanPhamThongTin">
+                <a
+                  href="./chitietsp/Nu/AoPhong/aophong2.html"
+                  class="TenCardSanPham"
+                  >Áo phông nữ</a
+                >
+                <div class="SanPhamGia">299.000 ₫</div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="SanPham">
+            <div class="SanPhamNoiDung">
+              <div class="SanPhamTop">
+                <img
+                  class="anhSanPham"
+                  src="picture/Nu/Aophong_Aothun/Aophong3/Den/Den1.webp"
+                  alt="Ảnh sản phẩm"
+                />
+                <a href="#" class="ThemNhanhVaoGio">Thêm nhanh vào giỏ</a>
+              </div>
+              <div class="LuaChonThuocTinhMau">
+                <span
+                  class="LuaChonMau selected"
+                  style="background-color: blue"
+                  data-img="picture/Nu/Aophong_Aothun/Aophong3/Den/Den1.webp"
+                ></span>
+                <span
+                  class="LuaChonMau"
+                  style="background-color: white"
+                  data-img="picture/Nu/Aophong_Aothun/Aophong3/Trang/Trang1.webp"
+                ></span>
+              </div>
+              <div class="SanPhamThongTin">
+                <a
+                  href="./chitietsp/Nu/AoPhong/aophong3.html"
+                  class="TenCardSanPham"
+                  >Áo phông nữ cotton basic dáng suông
+                </a>
+                <div class="SanPhamGia">299.000 ₫</div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="XemTatCaAlign">
+        <a href="#" class="XemTatCa">Xem tất cả</a>
+      </div>
+     <!---------->
+      <h2 class="TitleAnhGioiThieu">Quần</h2>
+      <ul class="DanhMucSanPham">
+        <li>
+          <div class="SanPham">
+            <div class="SanPhamNoiDung">
+              <div class="SanPhamTop">
+                <img
+                  class="anhSanPham"
+                  src="picture/Nu/Quan/Quan1/Den/Den1.webp"
+                  alt="Ảnh sản phẩm"
+                />
+                <a href="#" class="ThemNhanhVaoGio">Thêm nhanh vào giỏ</a>
+              </div>
+              <div class="LuaChonThuocTinhMau">
+                <span
+                  class="LuaChonMau selected"
+                  style="background-color: black"
+                  data-img="picture/Nu/Quan/Quan1/Den/Den1.webp"
+                ></span>
+                <span
+                  class="LuaChonMau"
+                  style="background-color: rgb(219, 219, 219)"
+                  data-img="picture/Nu/Quan/Quan1/Trang/Trang1.webp"
+                ></span>
+              </div>
+              <div class="SanPhamThongTin">
+                <a href="./chitietsp/Nu/Quan/quan1.html" class="TenCardSanPham"
+                  >Quần soóc nữ cotton USA cạp chun</a
+                >
+                <div class="SanPhamGia">199.000 ₫</div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="SanPham">
+            <div class="SanPhamNoiDung">
+              <div class="SanPhamTop">
+                <img
+                  class="anhSanPham"
+                  src="picture/Nu/Quan/Quan2/Den/Den1.webp"
+                  alt="Ảnh sản phẩm"
+                />
+                <a href="./chitietsp/Nu/Quan/quan2.html" class="ThemNhanhVaoGio"
+                  >Thêm nhanh vào giỏ</a
+                >
+              </div>
+              <div class="LuaChonThuocTinhMau">
+                <span
+                  class="LuaChonMau selected"
+                  style="background-color: black"
+                  data-img="picture/Nu/Quan/Quan2/Den/Den1.webp"
+                ></span>
+                <span
+                  class="LuaChonMau"
+                  style="background-color: rgb(201, 201, 201)"
+                  data-img="picture/Nu/Quan/Quan2/Trang/Trang1.webp"
+                ></span>
+              </div>
+              <div class="SanPhamThongTin">
+                <a href="./chitietsp/Nu/Quan/quan2.html" class="TenCardSanPham"
+                  >Quần soóc nữ</a
+                >
+                <div class="SanPhamGia">499.000 ₫</div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="SanPham">
+            <div class="SanPhamNoiDung">
+              <div class="SanPhamTop">
+                <img
+                  class="anhSanPham"
+                  src="picture/Nu/Quan/Quan3/Den/Den1.webp"
+                  alt="Ảnh sản phẩm"
+                />
+                <a href="#" class="ThemNhanhVaoGio">Thêm nhanh vào giỏ</a>
+              </div>
+              <div class="LuaChonThuocTinhMau">
+                <span
+                  class="LuaChonMau selected"
+                  style="background-color: black"
+                  data-img="picture/Nu/Quan/Quan3/Den/Den1.webp"
+                ></span>
+                <span
+                  class="LuaChonMau"
+                  style="background-color: white"
+                  data-img="picture/Nu/Quan/Quan3/Trang/Trang1.webp"
+                ></span>
+              </div>
+              <div class="SanPhamThongTin">
+                <a href="./chitietsp/Nu/Quan/quan3.html" class="TenCardSanPham"
+                  >Quần soóc nữ cạp chun dáng A</a
+                >
+                <div class="SanPhamGia">349.000 ₫</div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="XemTatCaAlign">
+        <a href="#" class="XemTatCa">Xem tất cả</a>
+      </div>
+      <!-------->
+      <h2 class="TitleAnhGioiThieu">Váy Xinh</h2>
+      <img src="./picture/Banner/Vay.webp">
+      <ul class="DanhMucSanPham">
+        <li>
+          <div class="SanPham">
+            <div class="SanPhamNoiDung">
+              <div class="SanPhamTop">
+                <img
+                  class="anhSanPham"
+                  src="picture/Nu/Vay/Vay1/Den/Den1.webp"
+                  alt="Ảnh sản phẩm"
+                />
+                <a href="#" class="ThemNhanhVaoGio">Thêm nhanh vào giỏ</a>
+              </div>
+              <div class="LuaChonThuocTinhMau">
+                <span
+                  class="LuaChonMau selected"
+                  style="background-color: black"
+                  data-img="picture/Nu/Vay/Vay1/Den/Den1.webp"
+                ></span>
+                <span
+                  class="LuaChonMau"
+                  style="background-color: white"
+                  data-img="picture/Nu/Vay/Vay1/Trang/Trang1.webp"
+                ></span>
+              </div>
+              <div class="SanPhamThongTin">
+                <a href="./chitietsp/Nu/Vay/vay1.html" class="TenCardSanPham"
+                  >Váy liền nữ</a
+                >
+                <div class="SanPhamGia">699.000 ₫</div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="SanPham">
+            <div class="SanPhamNoiDung">
+              <div class="SanPhamTop">
+                <img
+                  class="anhSanPham"
+                  src="picture/Nu/Vay/Vay2/Den/Den1.webp"
+                  alt="Ảnh sản phẩm"
+                />
+                <a href="#" class="ThemNhanhVaoGio">Thêm nhanh vào giỏ</a>
+              </div>
+              <div class="LuaChonThuocTinhMau">
+                <span
+                  class="LuaChonMau selected"
+                  style="background-color: black"
+                  data-img="picture/Nu/Vay/Vay2/Den/Den1.webp"
+                ></span>
+                <span
+                  class="LuaChonMau"
+                  style="background-color: white"
+                  data-img="picture/Nu/Vay/Vay2/Trang/Trang1.webp"
+                ></span>
+              </div>
+              <div class="SanPhamThongTin">
+                <a href="./chitietsp/Nu/Vay/vay2.html" class="TenCardSanPham"
+                  >Chân váy nữ</a
+                >
+                <div class="SanPhamGia">599.000 ₫</div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="SanPham">
+            <div class="SanPhamNoiDung">
+              <div class="SanPhamTop">
+                <img
+                  class="anhSanPham"
+                  src="picture/Nu/Vay/Vay3/Den/Den1.webp"
+                  alt="Ảnh sản phẩm"
+                />
+                <a href="#" class="ThemNhanhVaoGio">Thêm nhanh vào giỏ</a>
+              </div>
+              <div class="LuaChonThuocTinhMau">
+                <span
+                  class="LuaChonMau selected"
+                  style="background-color: black"
+                  data-img="picture/Nu/Vay/Vay3/Den/Den1.webp"
+                ></span>
+                <span
+                  class="LuaChonMau"
+                  style="background-color: rgb(249, 253, 225)"
+                  data-img="picture/Nu/Vay/Vay3/Trang/Trang1.webp"
+                ></span>
+              </div>
+              <div class="SanPhamThongTin">
+                <a href="./chitietsp/Nu/Vay/vay3.html" class="TenCardSanPham"
+                  >Chân váy nữ midi dáng suông</a
+                >
+                <div class="SanPhamGia">349.000 ₫</div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <div class="XemTatCaAlign">
+        <a href="#" class="XemTatCa">Xem tất cả</a>
+      </div>
+    </div>
+    <!--Footer-->
+    <footer class="footer">
+      <p style="align-items: center; text-align: center">
+        -----------------------------------------------------------------------------------------------------------------------------
+      </p>
+      <iframe
+        src="footer.html"
+        scrolling="no"
+        style="width: 100%; height: 500px; box-sizing: border-box"
+      ></iframe>
+    </footer>
+  </body>
+  <!-- bootstrap link js -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+  <script src="./script/cardsanpham.js"></script>
+</html>

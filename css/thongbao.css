@@ -1,0 +1,370 @@
+#logo {
+    width: 190px;
+    height: 150px;
+    margin-top: -3px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.header-with-search {
+    align-items: center;
+    display: flex;
+    margin-top: 0px;
+    padding-top: 30px;
+}
+
+video#myVideo {
+    width: 400px;
+    height: 300px;
+}
+
+.content {
+    display: flex;
+}
+
+button#myBtn {
+    margin-right: 10px;
+    border-radius: 3px;
+    border: 1px solid pink;
+
+}
+
+.section-title {
+    height: 60px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.row {
+    margin: 50px;
+
+}
+
+
+.content.d-flex.flex-column.justify-content-center {
+    margin-top: -80px;
+    padding-left: 30px;
+}
+
+section#counts {
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+section#about {
+    padding: 0px;
+}
+
+/* ..Banner.. */
+.swiper {
+    width: 360px;
+    height: 400px;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.swiper-slide img {
+    width: 360px;
+    height: 400px;
+    border-radius: 3px;
+}
+
+.tvnew {
+    width: 350px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+div#carouselExampleIndicators {
+    margin-top: 120px;
+}
+
+.header {
+    height: 120px;
+    top: 0;
+    z-index: 999;
+    position: fixed;
+}
+
+
+
+/*
+.style_iframe
+{
+width:300px;
+height:250px;
+border:0px solid white;
+
+}
+*/
+.product-item {
+    position: relative;
+}
+
+.style_SP {
+    width: 240px;
+    height: 300px;
+    border: 0px solid white;
+    border-radius: 5px;
+}
+
+.style_sale_shock {
+    background-color: rgb(196, 21, 21);
+    color: white;
+    width: 50px;
+
+    position: absolute;
+    border-radius: 4px;
+    font-size: 13px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+
+}
+
+.style_sale_good {
+    background-color: rgb(202, 220, 12);
+    color: white;
+    width: 60px;
+    position: absolute;
+    border-radius: 4px;
+    font-size: 13px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+.style_sale_new {
+    color: red;
+    width: 80px;
+    border-right: 1px outset red;
+    position: absolute;
+    border-left: 1px outset red;
+    border-top: 1px dashed red;
+    border-bottom: 1px dashed red;
+    font-size: 13px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+.style_sale_heart {
+
+    color: rgb(206, 197, 197);
+    width: 100%;
+    position: absolute;
+    left: 100px;
+    font-size: 13px;
+    top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+
+}
+
+.style_sale_heart.heart-active .fa-heart {
+    color: red;
+    /* Màu khi nhấn một lần */
+}
+
+/* */
+.img {
+    width: 100%;
+    height: 350px;
+}
+
+button.icon_color {
+    background-color: rgb(13, 37, 190);
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 100%;
+    padding-right: 10px;
+}
+
+.div_icon_color {
+    margin-top: 15px;
+}
+
+.items {
+
+    position: relative;
+}
+
+.item_when_hover_detail {
+    display: none;
+}
+
+.item_when_hover_detail a {
+    text-decoration: none;
+}
+
+.item_when_hover_detail :hover {
+    opacity: .8;
+    color: #a10606;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.items:hover .item_when_hover_detail {
+    display: block !important;
+    position: absolute;
+    top: 280px;
+    margin-left: 20px;
+    margin: 0 auto;
+    opacity: 0.8;
+    padding: 10px;
+    width: 99%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+    background-color: rgb(207, 183, 191);
+    animation: slideUp 1s forwards;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.cirle_deco {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.poster-text {
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.poster-poster-img {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+#tien {
+    color: rgb(4, 55, 117);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#giam {
+    color: rgb(184, 184, 184);
+    padding-left: 30px;
+}
+
+
+iframe.bodymain_body-iframe {
+    height: 500px;
+    width: 100%;
+    margin-top: -10px;
+}
+
+
+/*notification*/
+.noti_choose {
+    position: fixed;
+    top: 430px;
+    z-index: 1;
+    right: 10px;
+    width: 80px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: grab;
+}
+
+.notificaton_dow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-45deg);
+}
+
+.notificaton_dow .toggle-btn,
+.notificaton_dow span a {
+    height: 60px;
+    width: 60px;
+    background: #e4d4d4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.notificaton_dow .toggle-btn {
+    font-size: 35px;
+    color: #0e2431;
+    z-index: 100;
+    cursor: pointer;
+    transform: rotate(-225deg);
+    transition: all 0.6s ease;
+}
+
+.open .toggle-btn {
+    transform: rotate(0deg);
+}
+
+.notificaton_dow span {
+    position: absolute;
+    transition: all 0.6s ease;
+    opacity: 0;
+}
+
+.open .notificaton_dow span {
+    transform: rotate(calc(var(--i) * (360deg/8))) translateY(120px);
+    opacity: 1;
+}
+
+.notificaton_dow span a {
+    text-decoration: none;
+    transform: rotate(45deg);
+}
+
+.notificaton_dow span a i {
+    font-size: 24px;
+    color: #0e2431;
+    transform: rotate(calc(var(--i) * (360deg/ -8)));
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.notificaton_dow span a:hover i {
+    opacity: 1;
+}
+
+/*  Thông báo map */
+.modal-header {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+
+    padding-right: 10px;
+    border-bottom: var(--bs-modal-header-border-width) solid var(--bs-modal-header-border-color);
+
+}

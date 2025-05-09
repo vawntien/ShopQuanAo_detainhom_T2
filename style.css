@@ -7,7 +7,6 @@
 
 body {
   background-color: #f5f5f5;
-  padding: 20px;
 }
 
 .product-container {
@@ -262,13 +261,13 @@ h1 {
 }
 
 .accordion-header::after {
-  content: '+';
+  content: "+";
   position: absolute;
   right: 10px;
 }
 
 .accordion-header.active::after {
-  content: '-';
+  content: "-";
 }
 
 .accordion-content {
@@ -343,138 +342,134 @@ h1 {
   }
 }
 
-
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    color: black;
-    line-height: 2;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: black;
+  line-height: 2;
 }
 
 .wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .TitleAnhGioiThieu {
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 30px;
-    padding: 20px 0;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 30px;
+  padding: 20px 0;
 }
 
 .SanPhamGia {
-    color: black;
-    font-size: 25px;
-    font-weight: 500;
+  color: black;
+  font-size: 25px;
+  font-weight: 500;
 }
 
 ul.DanhMucSanPham {
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
-    ul.DanhMucSanPham li {
-        flex: 1 1 calc(33.333% - 30px);
-        max-width: calc(33.333% - 30px);
-        margin: 15px;
-        box-sizing: border-box;
-    }
+ul.DanhMucSanPham li {
+  flex: 1 1 calc(33.333% - 30px);
+  max-width: calc(33.333% - 30px);
+  margin: 15px;
+  box-sizing: border-box;
+}
 
 .SanPhamNoiDung {
-    width: 75%;
-    margin: 0 auto;
+  width: 75%;
+  margin: 0 auto;
 }
 
 .SanPhamTop {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
-    .SanPhamTop img {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
+.SanPhamTop img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
-    .SanPhamTop a.ThemNhanhVaoGio {
-        color: black;
-        background-color: white;
-        text-decoration: none;
-        text-align: center;
-        display: block;
-        padding: 10px 0;
-        position: absolute;
-        width: 100%;
-        left: 0;
-        bottom: -100px;
-        opacity: 0.9;
-        transition: bottom 0.3s ease;
-    }
+.SanPhamTop a.ThemNhanhVaoGio {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 10px 0;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -100px;
+  opacity: 0.9;
+  transition: bottom 0.3s ease;
+}
 
-    .SanPhamTop:hover a.ThemNhanhVaoGio {
-        bottom: 0;
-    }
+.SanPhamTop:hover a.ThemNhanhVaoGio {
+  bottom: 0;
+}
 
 .LuaChonThuocTinhMau {
-    display: flex;
-    flex-wrap: nowrap;
-    margin: 8px 0;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 8px 0;
 }
 
 .LuaChonMau {
-    width: 24px;
-    height: 24px;
-    display: inline-block;
-    border-radius: 50%;
-    margin-right: 8px;
-    border: 2px solid black;
-    cursor: pointer;
-    transition: 0.3s ease;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 8px;
+  border: 2px solid black;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 
-    .LuaChonMau.selected {
-        border-color: darkred;
-    }
+.LuaChonMau.selected {
+  border-color: darkred;
+}
 
 .TenCardSanPham {
-    display: block;
-    white-space: nowrap;
-    font-size: 24px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    color: black;
-    text-decoration: none;
-    font-weight: 100;
+  display: block;
+  white-space: nowrap;
+  font-size: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: black;
+  text-decoration: none;
+  font-weight: 100;
 }
 
-    .TenCardSanPham:hover {
-        color: red;
-    }
+.TenCardSanPham:hover {
+  color: red;
+}
 
 .XemTatCa {
-    border: 1px solid red;
-    color: red;
-    text-decoration: none;
-    font-weight: 500;
-    padding: 8px 16px;
-    font-size: 30px;
+  border: 1px solid red;
+  color: red;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 16px;
+  font-size: 30px;
 }
 
 .XemTatCaAlign {
-    text-align: center;
+  text-align: center;
 }

@@ -777,7 +777,135 @@ a.ThemNhanhVaoGio:hover {
   color: #c62828;
 }
 
+/* Phần chính của giỏ hàng */
+.cart {
+  padding: 50px 5% 10px 5%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
+/* Header của bảng giỏ hàng */
+.cart-header {
+  display: flex;
+  padding: 10px 0;
+  font-weight: bold;
+  border-bottom: 2px solid #000;
+}
+.cart-header span {
+  flex: 1;
+  text-align: center;
+}
+.cart-header span:first-child {
+  flex: 2;
+  text-align: left;
+}
+
+/* Dòng sản phẩm */
+.cart-row {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #ccc;
+}
+.cart-row span {
+  flex: 1;
+  text-align: center;
+}
+.cart-row span:first-child {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-align: left;
+}
+
+/* Hình ảnh sản phẩm */
+.cart-row img {
+  width: 80px;
+  height: auto;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Màu và size */
+.cart-row .size-color-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.cart-row .size {
+  padding: 4px 8px;
+  background: #f9f9f9;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.cart-row .color {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+
+/* Input số lượng */
+.cart-row .quantity input {
+  width: 50px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  text-align: center;
+  border-radius: 4px;
+}
+
+/* Nút xóa sản phẩm */
+.cart-row .remove {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.cart-row .remove i {
+  font-size: 20px;
+  color: #e74c3c;
+}
+
+/* Tổng tiền */
+.cart-total {
+  width: 400px;
+  margin: 50px 0 0 auto;
+}
+.cart-total h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+.cart-total p {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+.cart-total p:not(:last-of-type) {
+  border-bottom: 1px solid #ddd;
+}
+.cart-total p:last-of-type {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Nút thanh toán */
+.cart-total .btn {
+  display: block;
+  padding: 12px 30px;
+  margin: 30px 0 0 auto;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.cart-total .btn:hover {
+  background-color: #333;
+}
 
 
 

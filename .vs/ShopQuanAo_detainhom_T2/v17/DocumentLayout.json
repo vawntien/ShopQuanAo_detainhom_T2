@@ -1,0 +1,209 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\.vs\\ProjectSettings(1).json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\ProjectSettings(1).json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\script\\themvaocart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:script\\themvaocart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\thongbao\\TT2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:thongbao\\TT2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\thongbao\\TT1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:thongbao\\TT1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\thongbao\\TT.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:thongbao\\TT.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\script\\cardsanpham.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:script\\cardsanpham.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\Desktop\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\forgot.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:forgot.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProjectSettings(1).json",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\.vs\\ProjectSettings(1).json",
+              "RelativeDocumentMoniker": ".vs\\ProjectSettings(1).json",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\.vs\\ProjectSettings(1).json",
+              "RelativeToolTip": ".vs\\ProjectSettings(1).json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-21T13:15:29.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TT2.html",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\thongbao\\TT2.html",
+              "RelativeDocumentMoniker": "thongbao\\TT2.html",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\thongbao\\TT2.html",
+              "RelativeToolTip": "thongbao\\TT2.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-21T11:59:11.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TT1.html",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\thongbao\\TT1.html",
+              "RelativeDocumentMoniker": "thongbao\\TT1.html",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\thongbao\\TT1.html",
+              "RelativeToolTip": "thongbao\\TT1.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-21T11:59:10.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TT.html",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\thongbao\\TT.html",
+              "RelativeDocumentMoniker": "thongbao\\TT.html",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\thongbao\\TT.html",
+              "RelativeToolTip": "thongbao\\TT.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-21T11:59:09.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "cardsanpham.js",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\script\\cardsanpham.js",
+              "RelativeDocumentMoniker": "script\\cardsanpham.js",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\script\\cardsanpham.js",
+              "RelativeToolTip": "script\\cardsanpham.js",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-21T08:48:22.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\css\\style.css",
+              "RelativeDocumentMoniker": "css\\style.css",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\css\\style.css",
+              "RelativeToolTip": "css\\style.css",
+              "ViewState": "AgIAABADAAAAAAAAAAAAACQDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-21T08:37:06.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\css\\index.css",
+              "RelativeDocumentMoniker": "css\\index.css",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\css\\index.css",
+              "RelativeToolTip": "css\\index.css",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-21T08:36:53.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAJIFAAAAAAAAAAAAwJQFAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-18T08:21:50.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "products.json",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\products.json",
+              "RelativeDocumentMoniker": "..\\products.json",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\products.json",
+              "RelativeToolTip": "..\\products.json",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAwJoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-21T07:46:27.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "themvaocart.js",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\script\\themvaocart.js",
+              "RelativeDocumentMoniker": "script\\themvaocart.js",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\script\\themvaocart.js",
+              "RelativeToolTip": "script\\themvaocart.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-18T08:34:50.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "forgot.html",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\forgot.html",
+              "RelativeDocumentMoniker": "forgot.html",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ShopQuanAo_detainhom_T2\\forgot.html",
+              "RelativeToolTip": "forgot.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-18T08:20:56.476Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

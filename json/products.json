@@ -1,0 +1,423 @@
+[
+	{
+		"id": "A001",
+		"name": "Áo khoác bomber nam da lộn",
+		"price": "1.499.000 ₫",
+		"img": "picture/Nam/Aokhoac/Aokhoac1/Trang/Trang1.webp",
+		"link": "./chitietsp/Nam/Aokhoac/aokhoac1.html",
+		"colors": [
+			{
+			"color": "black",
+			"img": "picture/Nam/Aokhoac/Aokhoac1/Den/Den1.webp"
+			},
+			{
+			"color": "white",
+			"img": "picture/Nam/Aokhoac/Aokhoac1/Trang/Trang1.webp"
+			}
+		],
+		"sizes": ["S", "M", "L", "XL"]
+	},
+	{
+		"id": "A002",
+		"name": "Áo khoác chống nắng nam",
+		"price": "259.000 ₫",
+		"img": "picture/Nam/Aokhoac/Aokhoac2/Den/Den2.webp",
+		"link": "./chitietsp/Nam/Aokhoac/aokhoac2.html",
+		"colors": [
+		  {
+			"color": "black",
+			"img": "picture/Nam/Aokhoac/Aokhoac2/Den/Den2.webp"
+		  },
+		  {
+			"color": "rgb(249, 239, 203)",
+			"img": "picture/Nam/Aokhoac/Aokhoac2/Trang/Trang1.webp"
+		  }
+		],
+		"sizes": ["S", "M", "L", "XL"]
+	},
+	{
+		"id": "A003",
+		"name": "Áo khoác gilet chần bông nam chống thấm, siêu ấm",
+		"price": "999.000 ₫",
+		"img": "picture/Nam/Aokhoac/Aokhoac3/Trang/Trang1.webp",
+		"link": "./chitietsp/Nam/Aokhoac/aokhoac3.html",
+		"colors": [
+		  {
+			"color": "black",
+			"img": "picture/Nam/Aokhoac/Aokhoac3/Den/Den1.webp"
+		  },
+		  {
+			"color": "white",
+			"img": "picture/Nam/Aokhoac/Aokhoac3/Trang/Trang1.webp"
+		  }
+		],
+		"sizes": ["S", "M", "L", "XL"]
+	},
+	{
+		"id": "A004",
+		"name": "Áo khoác chống nắng nam",
+		"price": "259.000 ₫",
+		"img": "picture/Nam/Aokhoac/Aokhoac2/Trang/Trang1.webp",
+		"link": "./chitietsp/Nam/Aokhoac/aokhoac2.html",
+		"colors": [
+		  {
+			"color": "black",
+			"img": "picture/Nam/Aokhoac/Aokhoac2/Den/Den2.webp"
+		  },
+		  {
+			"color": "rgb(249, 239, 203)",
+			"img": "picture/Nam/Aokhoac/Aokhoac2/Trang/Trang1.webp"
+		  }
+		],
+		"sizes": ["S", "M", "L", "XL"]
+	},
+	{
+		"id": "Q001",
+		"name": "Quần soóc nữ cạp chun dáng A",
+		"price": "349.000 ₫",
+		"img": "picture/Nu/Quan/Quan3/Trang/Trang1.webp",
+		"link": "./chitietsp/Nu/Quan/quan3.html",
+		"colors": [
+		{
+			"color": "black",
+			"img": "picture/Nu/Quan/Quan3/Den/Den1.webp"
+		},
+		{
+			"color": "white",
+			"img": "picture/Nu/Quan/Quan3/Trang/Trang1.webp"
+		}
+		],
+		"sizes": ["S", "M", "L", "XL"]
+	},
+	{
+		"id": "Q002",
+		"name": "Quần soóc nam",
+		"price": "249.000 ₫",
+		"img": "picture/Nam/Quan/Quan1/Trang/Trang1.webp",
+		"link": "./chitietsp/Nam/Quan/quan1.html",
+		"colors": [
+		{
+			"color": "black",
+			"img": "picture/Nam/Quan/Quan1/Den/Den1.webp"
+		},
+		{
+			"color": "white",
+			"img": "picture/Nam/Quan/Quan1/Trang/Trang1.webp"
+		}
+		],
+		"sizes": ["S", "M", "L", "XL"]
+	},
+	{
+		"id": "Q003",
+		"name": "Quần soóc nam",
+		"price": "399.000 ₫",
+		"img": "picture/Nam/Quan/Quan2/Den/Den1.webp",
+		"link": "./chitietsp/Nam/Quan/quan2.html",
+		"colors": [
+		{
+			"color": "black",
+			"img": "picture/Nam/Quan/Quan2/Den/Den1.webp"
+		},
+		{
+			"color": "white",
+			"img": "picture/Nam/Quan/Quan2/Trang/Trang1.webp"
+		}
+		],
+		"sizes": ["S", "M", "L", "XL"]
+	},
+	{
+		"id": "Q004",
+		"name": "Quần soóc jeans nam cạp thường dáng suông",
+		"price": "419.300 ₫",
+		"img": "picture/Nam/Quan/Quan3/Den/Den1.webp",
+		"link": "./chitietsp/Nam/Quan/quan3.html",
+		"colors": [
+		{
+			"color": "black",
+			"img": "picture/Nam/Quan/Quan3/Den/Den1.webp"
+		}
+		],
+		"sizes": ["S", "M", "L", "XL"]
+	},
+	{
+		"id": "Q005",
+		"name": "Quần soóc nữ cotton USA cạp chun",
+		"price": "199.000 ₫",
+		"img": "picture/Nu/Quan/Quan1/Den/Den1.webp",
+		"link": "./chitietsp/Nu/Quan/quan1.html",
+		"colors": [
+		{
+			"color": "black",
+			"img": "picture/Nu/Quan/Quan1/Den/Den1.webp"
+		},
+		{
+			"color": "rgb(219, 219, 219)",
+			"img": "picture/Nu/Quan/Quan1/Trang/Trang1.webp"
+		}
+		],
+		"sizes": ["S", "M", "L", "XL"]
+	},
+	{
+		"id": "Q006",
+		"name": "Quần soóc nữ",
+		"price": "499.000 ₫",
+		"img": "picture/Nu/Quan/Quan2/Den/Den1.webp",
+		"link": "./chitietsp/Nu/Quan/quan2.html",
+		"colors": [
+		{
+			"color": "black",
+			"img": "picture/Nu/Quan/Quan2/Den/Den1.webp"
+		},
+		{
+			"color": "rgb(201, 201, 201)",
+			"img": "picture/Nu/Quan/Quan2/Trang/Trang1.webp"
+		}
+		],
+		"sizes": ["S", "M", "L", "XL"]
+	},
+	{
+		"id": "Q007",
+		"name": "Quần soóc jeans nam cạp thường dáng suông",
+		"price": "419.300 ₫",
+		"img": "picture/Nam/Quan/Quan3/Den/Den1.webp",
+		"link": "./chitietsp/Nam/Quan/quan3.html",
+		"colors": [
+		{
+			"color": "black",
+			"img": "picture/Nam/Quan/Quan3/Den/Den1.webp"
+		}
+		],
+		"sizes": ["S", "M", "L", "XL"]
+	},
+	{
+		"id": "Q008",
+		"name": "Quần soóc nữ cạp chun dáng A",
+		"price": "349.000 ₫",
+		"img": "picture/Nu/Quan/Quan3/Den/Den1.webp",
+		"link": "./chitietsp/Nu/Quan/quan3.html",
+		"colors": [
+		{
+			"color": "black",
+			"img": "picture/Nu/Quan/Quan3/Den/Den1.webp"
+		},
+		{
+			"color": "white",
+			"img": "picture/Nu/Quan/Quan3/Trang/Trang1.webp"
+		}
+		],
+		"sizes": ["S", "M", "L", "XL"]
+	},
+	  
+	{
+		"id": "B001",
+		"name": "Áo phông nữ dài tay có hình in",
+		"price": "399.000 ₫",
+		"img": "picture/Nu/Aophong_Aothun/Aophong1/Trang/Trang1.webp",
+		"link": "./chitietsp/Nu/AoPhong/aophong1.html",
+		"colors": [
+		  {
+			"color": "black",
+			"img": "picture/Nu/Aophong_Aothun/Aophong1/Den/Den1.webp"
+		  },
+		  {
+			"color": "white",
+			"img": "picture/Nu/Aophong_Aothun/Aophong1/Trang/Trang1.webp"
+		  }
+		],
+		"sizes": ["S", "M", "L", "XL"]
+	  },
+	  {
+		"id": "B002",
+		"name": "Áo phông unisex người lớn",
+		"price": "300.000 ₫",
+		"img": "picture/Nam/Aophong/Aophong2/Den/Den1.webp",
+		"link": "./chitietsp/Nam/AoPhong/aophong2.html",
+		"colors": [
+		  {
+			"color": "black",
+			"img": "picture/Nam/Aophong/Aophong2/Den/Den1.webp"
+		  },
+		  {
+			"color": "white",
+			"img": "picture/Nam/Aophong/Aophong2/Trang/Trang1.webp"
+		  }
+		],
+		"sizes": ["S", "M", "L", "XL"]
+	  },
+	  {
+		"id": "B003",
+		"name": "Áo phông nữ cotton basic dáng suông",
+		"price": "299.000 ₫",
+		"img": "picture/Nu/Aophong_Aothun/Aophong3/Den/Den1.webp",
+		"link": "./chitietsp/Nu/AoPhong/aophong3.html",
+		"colors": [
+		  {
+			"color": "blue",
+			"img": "picture/Nu/Aophong_Aothun/Aophong3/Den/Den1.webp"
+		  },
+		  {
+			"color": "white",
+			"img": "picture/Nu/Aophong_Aothun/Aophong3/Trang/Trang1.webp"
+		  }
+		],
+		"sizes": ["S", "M", "L", "XL"]
+	  },
+	  {
+		"id": "B004",
+		"name": "Áo phông nam in Marvel",
+		"price": "399.000 ₫",
+		"img": "picture/Nam/Aophong/Aophong3/Den/Den1.webp",
+		"link": "./chitietsp/Nam/AoPhong/aophong3.html",
+		"colors": [
+		  {
+			"color": "black",
+			"img": "picture/Nam/Aophong/Aophong3/Den/Den1.webp"
+		  }
+		],
+		"sizes": ["S", "M", "L", "XL"]
+	  },
+	  {
+		"id": "B005",
+		"name": "Áo phông nam vải dệt Waffle dáng oversize",
+		"price": "449.000 ₫",
+		"img": "picture/Nam/Aophong/Aophong1/Xanh/Xanh1.webp",
+		"link": "./chitietsp/Nam/AoPhong/aophong1.html",
+		"colors": [
+		  {
+			"color": "rgb(2, 45, 152)",
+			"img": "picture/Nam/Aophong/Aophong1/Xanh/Xanh1.webp"
+		  },
+		  {
+			"color": "white",
+			"img": "picture/Nam/Aophong/Aophong1/Trang/Trang1.webp"
+		  }
+		],
+		"sizes": ["S", "M", "L", "XL"]
+	  },
+	  {
+		"id": "B006",
+		"name": "Áo phông nữ",
+		"price": "299.000 ₫",
+		"img": "picture/Nu/Aophong_Aothun/Aophong2/Den/Den1.webp",
+		"link": "./chitietsp/Nu/AoPhong/aophong2.html",
+		"colors": [
+		  {
+			"color": "black",
+			"img": "picture/Nu/Aophong_Aothun/Aophong2/Den/Den2.webp"
+		  },
+		  {
+			"color": "white",
+			"img": "picture/Nu/Aophong_Aothun/Aophong2/Trang/Trang1.webp"
+		  }
+		],
+		"sizes": ["S", "M", "L", "XL"]
+	  },
+	  {
+		"id": "B007",
+		"name": "Áo phông nữ cotton basic dáng suông",
+		"price": "299.000 ₫",
+		"img": "picture/Nu/Aophong_Aothun/Aophong3/Trang/Trang1.webp",
+		"link": "./chitietsp/Nu/AoPhong/aophong3.html",
+		"colors": [
+		  {
+			"color": "blue",
+			"img": "picture/Nu/Aophong_Aothun/Aophong3/Den/Den1.webp"
+		  },
+		  {
+			"color": "white",
+			"img": "picture/Nu/Aophong_Aothun/Aophong3/Trang/Trang1.webp"
+		  }
+		],
+		"sizes": ["S", "M", "L", "XL"]
+	  },
+	  {
+		"id": "B008",
+		"name": "Áo phông nữ dài tay có hình in",
+		"price": "399.000 ₫",
+		"img": "picture/Nu/Aophong_Aothun/Aophong1/Den/Den1.webp",
+		"link": "./chitietsp/Nu/AoPhong/aophong1.html",
+		"colors": [
+		  {
+			"color": "black",
+			"img": "picture/Nu/Aophong_Aothun/Aophong1/Den/Den1.webp"
+		  },
+		  {
+			"color": "white",
+			"img": "picture/Nu/Aophong_Aothun/Aophong1/Trang/Trang1.webp"
+		  }
+		],
+		"sizes": ["S", "M", "L", "XL"]
+	  },
+	  {
+		"id": "V001",
+		"name": "Váy liền nữ",
+		"price": "699.000 ₫",
+		"img": "picture/Nu/Vay/Vay1/Den/Den1.webp",
+		"link": "./chitietsp/Nu/Vay/vay1.html",
+		"colors": [
+		  {
+			"color": "black",
+			"img": "picture/Nu/Vay/Vay1/Den/Den1.webp"
+		  },
+		  {
+			"color": "white",
+			"img": "picture/Nu/Vay/Vay1/Trang/Trang1.webp"
+		  }
+		],
+		"sizes": ["S", "M", "L", "XL"]
+	  },
+	  {
+		"id": "V002",
+		"name": "Chân váy nữ",
+		"price": "599.000 ₫",
+		"img": "picture/Nu/Vay/Vay2/Den/Den1.webp",
+		"link": "./chitietsp/Nu/Vay/vay2.html",
+		"colors": [
+		  {
+			"color": "black",
+			"img": "picture/Nu/Vay/Vay2/Den/Den1.webp"
+		  },
+		  {
+			"color": "white",
+			"img": "picture/Nu/Vay/Vay2/Trang/Trang1.webp"
+		  }
+		],
+		"sizes": ["S", "M", "L", "XL"]
+	  },
+	  {
+		"id": "V003",
+		"name": "Chân váy nữ midi dáng suông",
+		"price": "349.000 ₫",
+		"img": "picture/Nu/Vay/Vay3/Den/Den1.webp",
+		"link": "./chitietsp/Nu/Vay/vay3.html",
+		"colors": [
+		  {
+			"color": "black",
+			"img": "picture/Nu/Vay/Vay3/Den/Den1.webp"
+		  },
+		  {
+			"color": "rgb(249, 253, 225)",
+			"img": "picture/Nu/Vay/Vay3/Trang/Trang1.webp"
+		  }
+		],
+		"sizes": ["S", "M", "L", "XL"]
+	  },
+	  {
+		"id": "V004",
+		"name": "Váy liền nữ",
+		"price": "699.000 ₫",
+		"img": "picture/Nu/Vay/Vay1/Trang/Trang1.webp",
+		"link": "./chitietsp/Nu/Vay/vay1.html",
+		"colors": [
+		  {
+			"color": "black",
+			"img": "picture/Nu/Vay/Vay1/Den/Den1.webp"
+		  },
+		  {
+			"color": "white",
+			"img": "picture/Nu/Vay/Vay1/Trang/Trang1.webp"
+		  }
+		],
+		"sizes": ["S", "M", "L", "XL"]
+	  }
+]

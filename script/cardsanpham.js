@@ -20,3 +20,19 @@ function setNewColor(product, imgSrc) {
     img.src = imgSrc;
 }
 })
+
+document.querySelectorAll(".SanPham").forEach(sp => {
+    const btnThem = sp.querySelector(".ThemNhanhVaoGio");
+    const menuSize = sp.querySelector(".LuaChonSize");
+    btnThem.addEventListener("click", function (e) {
+        e.preventDefault();
+        btnThem.style.display = "none";
+        menuSize.style.display = "flex";
+    });
+    sp.addEventListener("mouseleave", function () {
+        btnThem.style.display = "block";
+        menuSize.style.display = "none";
+    });
+});
+
+

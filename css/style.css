@@ -861,12 +861,18 @@ a.ThemNhanhVaoGio:hover {
 /* Nút xóa sản phẩm */
 .cart-row .remove {
   background: transparent;
-  border: none;
-  cursor: pointer;
-}
-.cart-row .remove i {
-  font-size: 20px;
   color: #e74c3c;
+  border: 1px solid #e74c3c;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.cart-row .remove:hover {
+  background: #e74c3c;
+  color: white;
 }
 
 /* Tổng tiền */
@@ -904,7 +910,9 @@ a.ThemNhanhVaoGio:hover {
   transition: background-color 0.2s ease;
 }
 .cart-total .btn:hover {
-  background-color: #333;
+  background-color: white;
+  color: black;
+  border: black solid 2px;
 }
 
 

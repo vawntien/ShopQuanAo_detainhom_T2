@@ -113,11 +113,11 @@ document.addEventListener('DOMContentLoaded', function () {
             <span>${item.size}</span>
             <span>${item.quantity}</span>
             <span>${tong.toLocaleString()} ₫</span>
-            <span><button class="xoa-sp" data-index="${index}">Xóa</button></span>
+            <span><button class="remove" data-index="${index}">Xóa</button></span>
         `;
         cartItemsContainer.appendChild(itemDiv);
     });
-    document.querySelectorAll('.xoa-sp').forEach(btn => {
+    document.querySelectorAll('.remove').forEach(btn => {
         btn.addEventListener('click', function () {
             const index = this.dataset.index;
             cart.splice(index, 1);

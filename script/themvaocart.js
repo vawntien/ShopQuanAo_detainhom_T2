@@ -37,6 +37,18 @@ const addDataToHTML = () => {
   }
   let cart = [];
 
+document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('button.btn').forEach(button => {
+        if (button.textContent.trim() === 'Thanh toán') {
+            button.addEventListener('click', function () {
+                alert("Bạn đã mua sản phẩm thành công");
+                    sessionStorage.removeItem("cart");
+                    capNhatSoLuong();
+                    location.reload();
+            });
+        }
+    });
+});
 
 document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('.ThemNhanhVaoGio').forEach(btn => {
